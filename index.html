@@ -72,7 +72,7 @@
     <h1>Julio J. Candanedo</h1>
     <p class="lead">
        I am an AI scintist at SparseTrace. Prior, I was a postdoctoral researcher in the Department of Physics at University of Wisconsin-Milwaukee. 
-       I received my Ph.D. in 2023 from the Department of Physics at Arizona State University, advised by Professor <a href="https://en.wikipedia.org/wiki/John_C._H._Spence">John C.H. Spence</a>, <a href="https://becksteinlab.physics.asu.edu/people/11/oliver-beckstein">Oliver Beckstein</a>, and <a href="https://faculty.engineering.asu.edu/christianarenz/">Christian Arenzn</a>.
+       I received my Ph.D. in 2023 from the Department of Physics at Arizona State University, advised by Professor <a href="https://en.wikipedia.org/wiki/John_C._H._Spence">John C.H. Spence</a>, <a href="https://becksteinlab.physics.asu.edu/people/11/oliver-beckstein">Oliver Beckstein</a>, and <a href="https://faculty.engineering.asu.edu/christianarenz/">Christian Arenz</a>.
        My research lies broadly at the intersection of Physics and AI, with a current focus on physical chemistry, manifold learning, autoregressive generative models, and diffusion models.
       </p>
     <p class="links">
@@ -101,7 +101,18 @@
           <a href="https://github.com/yourname/repo">code</a>
           <a href="https://yoursite/paper">project page</a>
         </p>
-        <p class="note">One-line plain-language summary of the result.</p>
+        <p class="note">We introduce the Linearized Diffusion Map (LDM), a novel linear dimensionality
+reduction method constructed via a linear approximation of the diffusion-map kernel. LDM integrates the geometric intuition of diffusion-based nonlinear methods
+with the computational simplicity, efficiency, and interpretability inherent in linear
+embeddings such as PCA and classical MDS. Through comprehensive experiments
+on synthetic datasets (Swiss roll and hyperspheres) and real-world benchmarks
+(MNIST and COIL-20), we illustrate that LDM captures distinct geometric features
+of datasets compared to PCA, offering complementary advantages. Specifically,
+LDM embeddings outperform PCA in datasets exhibiting explicit manifold structures, particularly in high-dimensional regimes, whereas PCA remains preferable
+in scenarios dominated by variance or noise. Furthermore, the complete positivity
+of LDM’s kernel matrix allows direct applicability of Non-negative Matrix Factorization (NMF), suggesting opportunities for interpretable latent-structure discovery.
+Our analysis positions LDM as a valuable new linear dimensionality reduction
+technique with promising theoretical and practical extensions.</p>
       </div>
     </article>
 
